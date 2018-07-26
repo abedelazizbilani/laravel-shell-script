@@ -8,7 +8,7 @@ echo setting up laravel project
 composer create-project --prefer-dist laravel/laravel $projectName
 # change directory to be able to edit the .env file
 echo changing directory to $projectName
-cd test
+cd $projectName
 composer dump-autoload 
 echo create database
 echo database name
